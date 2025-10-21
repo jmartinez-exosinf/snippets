@@ -1,0 +1,32 @@
+# 🧩 Snippet Designer en Visual Studio 2022
+
+## ¿Qué es Snippet Designer?
+
+**Snippet Designer 2022** es una extensión gratuita para Visual Studio que permite crear y editar fragmentos de código (`.snippet`) de forma visual. Algunas de sus características:
+
+- Editor visual para crear snippets.
+- Soporte para C#, VB.NET, HTML, XML, SQL, etc.
+- Inserción de reemplazos (`$variable$`) fácilmente.
+- Explorador de snippets.
+- Exportación rápida desde el editor de código.
+
+🔗 [Descargar desde Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=vs-publisher-2795.SnippetDesigner2022)
+
+---
+
+## ⚙️ Cómo instalar y usar Snippet Designer
+
+### 1. Instalación
+
+- Abre Visual Studio 2022.
+- Ve a `Extensions > Manage Extensions`.
+- Busca **Snippet Designer 2022** y haz clic en **Download**.
+- Reinicia Visual Studio para completar la instalación.
+
+### 2. Crear un nuevo snippet
+
+- Ve a `File > New > File > Code Snippet File`.
+- Escribe tu código y usa clic derecho para agregar **reemplazos**.
+- Guarda el archivo `.snippet` en:
+
+``
