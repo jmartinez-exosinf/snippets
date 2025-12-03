@@ -28,5 +28,28 @@
 - Ve a `File > New > File > Code Snippet File`.
 - Escribe tu código y usa clic derecho para agregar **reemplazos**.
 - Guarda el archivo `.snippet` en:
+```dir
+Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\
+```
+- Usa **Ctrl + K**, **X** para insertar snippets en el editor de código.
 
-``
+## 🧪 Ejemplo de snippet básico (.snippet XML)
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+    <Snippet>
+      <Code Language="CSharp">
+        <![CDATA[
+Console.WriteLine("$mensaje$");
+        ]]>
+      </Code>
+      <Declarations>
+        <Literal>
+          <ID>mensaje</ID>
+          <ToolTip>Texto a mostrar</ToolTip>
+          <DefaultText>Hola mundo</DefaultText>
+        </Literal>
+      </Declarations>
+    </Snippet>
+  unitarias, acceso a base de datos, o logging.
+```
