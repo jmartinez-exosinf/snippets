@@ -24,11 +24,10 @@ catch (Exception ex) {
 Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets\
 ```
 
-Define un Shortcut (ej. trywrap) para activarlo fácilmente con Ctrl+K, X.
+Define un **Shortcut** (ej. trywrap) para activarlo fácilmente con **Ctrl+K, X**.
 
-
-🧪 Ejemplo XML del snippet
-
+## 🧪 Ejemplo XML del snippet
+```xml
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
@@ -52,8 +51,9 @@ $end$
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
-✅ ¿Por qué es útil?
+```
 
-Te permite aplicar patrones comunes sin reescribir código.
-Ideal para agregar manejo de excepciones, logging, o validaciones alrededor de código existente.
-Ahorra tiempo y reduce errores manuales.
+## ✅ ¿Por qué es útil?
+- Te permite aplicar patrones comunes sin reescribir código.
+- Ideal para agregar manejo de excepciones, logging, o validaciones alrededor de código existente.
+- Ahorra tiempo y reduce errores manuales.
